@@ -1,3 +1,13 @@
+.skills {
+    display: flex; /* Align items in a row */
+    gap: 1rem; /* Add spacing between items */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    margin: 1rem 0; /* Add vertical margin */
+  }
+  
+  
+
 .skills-info-card{
     min-height:23rem;
     border-radius:0.65rem;

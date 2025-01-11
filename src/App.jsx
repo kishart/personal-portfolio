@@ -14,8 +14,10 @@ const App = () => {
   <Navbar />
   <div className="container">
     <Hero />
+  
     <Skills />
     <WorkExperience />
+   
     <ContactMe />
   </div>
 

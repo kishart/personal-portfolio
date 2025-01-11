@@ -1,23 +1,33 @@
 export const SKILLS = [
     {
       title: "Appointment System",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+      button: "View Project",
       images: [
         { img: '/src/assets/images/husnie.png', alt: "My Image" } // Use relative path starting from the public folder
       ],
+
     },
     {
       title: "Travelease Final Exam",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+      button: "View Project",
        images: [
         { img: '/src/assets/images/travel.png', alt: "My Image" }
       ],
     },
     {
-      title: "Pokemon API", images: [
+      title: "Pokemon API", 
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+      button: "View Project",
+      images: [
         { img: '/src/assets/images/pikachu.png', alt: "My Image" }
       ],
     },
     {
       title: "Real Estate",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+      button: "View Project",
         images: [
         { img: '/src/assets/images/real.png', alt: "My Image" }
       ],

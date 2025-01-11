@@ -1,7 +1,16 @@
+.skills {
+    display: flex; /* Align items in a row */
+    gap: 1rem; /* Add spacing between items */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    margin: 1rem 0; /* Add vertical margin */
+  }
+  
+
 .skills-card{
     border-radius:0.65rem;
     border:1.5px solid #6751b9;
-    padding:2.5rem;
+    padding:10px;
     text-align: center;
     background: rgba(22, 17, 47, 0.398);
     backdrop-filter: blur(1rem);
@@ -15,22 +24,10 @@
     background: linear-gradient(180deg, #aa94fe, 0%, #7c5fe6 100%);
 }
 .skills-card span{
-    font-size:1.3rem;
+    font-size:1rem;
     font-weight:500;
 }
-.skill-icon{
-    width:4rem;
-    height: 4rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background: #2a2252;
-    border-radius:0.65rem;
-    border:1.5px solid #6852ba;
-    position:absolute;
-    top:-1rem;
-    left:-1rem;
-}
+
 .skill-icon img{
     width:2.4rem;
     height: auto;

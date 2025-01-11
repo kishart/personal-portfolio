@@ -26,13 +26,15 @@ const Skills = () => {
             />
           ))}
         </div>
-        <div className="skills-info">
+       
+      </div>
+      <div className="skills-info">
           <SkillsInfoCard
             heading={selectedSkill.title}
-            images={selectedSkill.images} // Passing the correct prop
+            images={selectedSkill.images} 
+            description={selectedSkill.description}
           />
         </div>
-      </div>
     </section>
   );
 };

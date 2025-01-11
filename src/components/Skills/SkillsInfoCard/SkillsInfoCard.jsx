@@ -13,6 +13,8 @@ const SkillsInfoCard = ({ heading, images }) => {
             {item.img && (
               <img src={item.img} alt={item.alt || "Skill Image"} className="skill-image" />
             )}
+            {item.description}
+            
           </div>
         </React.Fragment>
       ))}

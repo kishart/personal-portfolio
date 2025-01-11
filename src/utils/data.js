@@ -1,8 +1,10 @@
+
 export const SKILLS = [
     {
       title: "Appointment System",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
-      button: "View Project",
+    
+      link: "https://husnie-photography.lsu-ccsea.cloud/", 
       images: [
         { img: '/src/assets/images/husnie.png', alt: "My Image" } // Use relative path starting from the public folder
       ],
@@ -11,7 +13,11 @@ export const SKILLS = [
     {
       title: "Travelease Final Exam",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
-      button: "View Project",
+   
+    button: {
+        text: "View Project",
+        link: "https://husnie-photography.lsu-ccsea.cloud/"
+    },
        images: [
         { img: '/src/assets/images/travel.png', alt: "My Image" }
       ],
@@ -19,7 +25,7 @@ export const SKILLS = [
     {
       title: "Pokemon API", 
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
-      button: "View Project",
+      link: "https://husnie-photography.lsu-ccsea.cloud/",
       images: [
         { img: '/src/assets/images/pikachu.png', alt: "My Image" }
       ],
@@ -27,7 +33,7 @@ export const SKILLS = [
     {
       title: "Real Estate",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
-      button: "View Project",
+      link: "https://husnie-photography.lsu-ccsea.cloud/",
         images: [
         { img: '/src/assets/images/real.png', alt: "My Image" }
       ],

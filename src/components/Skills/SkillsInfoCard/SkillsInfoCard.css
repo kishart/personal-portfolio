@@ -15,6 +15,13 @@
     -webkit-text-fill-color: transparent;
     border-bottom: .5px solid #6751b9;
 }
+.skill-image {
+    width: auto; /* Set desired width */
+    height: 250px; /* Set desired height to maintain proportion */
+    object-fit: contain; /* Ensures the image fits within the bounds */
+    border-radius: 0.5rem; /* Optional: Adds rounded corners */
+}
+
 .skills-info-content{
     padding:2rem;
 

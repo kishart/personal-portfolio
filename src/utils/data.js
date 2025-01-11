@@ -1,41 +1,30 @@
-export const SKILLS =[
+export const SKILLS = [
     {
-        title: "Frontend",
-        icon: "https://i.pinimg.com/236x/a7/c8/9b/a7c89b710a0101addaaaea64eb85bf7b.jpg",
-        skills: [
-            {skill: "HTML5", percentage: "80%"},
-            {skill: "CSS3", percentage: "90%"},
-            {skill: "JavaScript", percentage: "75%"},
-            {skill: "React", percentage: "80%"},
-
-        ],
+      title: "Appointment System",
+      images: [
+        { img: '/src/assets/images/husnie.png', alt: "My Image" } // Use relative path starting from the public folder
+      ],
     },
     {
-        title: "Backend",
-        icon: "https://i.pinimg.com/236x/a7/c8/9b/a7c89b710a0101addaaaea64eb85bf7b.jpg",
-        skills: [
-            {skill: "Node.js", percentage: "70%"},
-            {skill: "Express", percentage: "65%"},
-        ],
+      title: "Travelease Final Exam",
+       images: [
+        { img: '/src/assets/images/travel.png', alt: "My Image" }
+      ],
     },
     {
-        title: "Tools",
-        icon: "https://i.pinimg.com/236x/a7/c8/9b/a7c89b710a0101addaaaea64eb85bf7b.jpg",
-        skills: [
-            {skill: "Git", percentage: "85%"},
-            {skill: "VS Code", percentage: "75%"},
-        ],
+      title: "Pokemon API", images: [
+        { img: '/src/assets/images/pikachu.png', alt: "My Image" }
+      ],
     },
     {
-        title: "Soft Skills",
-        icon: "https://i.pinimg.com/236x/a7/c8/9b/a7c89b710a0101addaaaea64eb85bf7b.jpg",
-        skills: [
-            {skill: "Problem Solving", percentage: "80%"},
-            {skill: "Teamwork", percentage: "85%"},
-            {skill: "Communication", percentage: "75%"},
-        ],
+      title: "Real Estate",
+        images: [
+        { img: '/src/assets/images/real.png', alt: "My Image" }
+      ],
     },
-];
+  ];
+  
+  
 
 export const WORK_EXPERIENCE = [
     {title: "Frontend Developer", 
